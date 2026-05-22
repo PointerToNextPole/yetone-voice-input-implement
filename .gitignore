@@ -1,0 +1,64 @@
+# macOS filesystem noise
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Temporary Items
+Network Trash Folder
+.apdisk
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+
+# Xcode user state and generated metadata
+DerivedData/
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Build products and release artifacts
+build/
+dist/
+*.app
+*.dSYM/
+*.xcarchive/
+*.ipa
+*.pkg
+*.dmg
+*.zip
+
+# Logs and crash reports
+*.log
+*.crash
+*.ips
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.cer
+*.cert
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+
+# Editor and tool-local files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

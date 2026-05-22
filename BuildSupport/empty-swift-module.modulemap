@@ -1,0 +1,2 @@
+// Workaround for Command Line Tools installs that ship duplicate SwiftBridging
+// module maps in usr/include/swift. This intentionally defines no modules.
