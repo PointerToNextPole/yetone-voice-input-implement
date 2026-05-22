@@ -21,6 +21,7 @@ build: $(VFS_OVERLAY)
 	mkdir -p $(RESOURCES) $(BUNDLE_DIR)/Contents/MacOS
 	cp .build/release/$(APP_NAME) $(EXECUTABLE)
 	cp Resources/Info.plist $(PLIST)
+	cp Resources/AppIcon.icns $(RESOURCES)/AppIcon.icns
 	codesign --force --deep --sign - $(BUNDLE_DIR)
 
 run: build
